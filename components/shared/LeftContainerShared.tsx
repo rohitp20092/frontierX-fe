@@ -1,5 +1,7 @@
 import React, { ReactElement } from "react";
-import { Title, Smalltext } from "../shared/Headings";
+
+//shared components
+import { Smalltext } from "../shared/Headings";
 
 interface ILeftContainerSharedProps {
 	children?: ReactElement;

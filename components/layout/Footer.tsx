@@ -1,4 +1,6 @@
 import React from "react";
+
+//Icons
 import Logo from "../icons/Logo";
 
 const Footer = () => {

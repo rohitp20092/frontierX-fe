@@ -1,11 +1,18 @@
 import React from "react";
+
+//Typography
 import { Text, H4 } from "../shared/Headings";
+//Shared components
+import CenterButton from "../shared/CenterButton";
+
+//Next Imports
 import Image from "next/image";
+
+//Icons
 import TowerIcon from "../icons/TowerIcon";
 import CircleIcon from "../icons/CircleIcon";
 import HomeIcon from "../icons/HomeICon";
 import avtar from "../../public/assets/avtar2.jpg";
-import CenterButton from "../shared/CenterButton";
 
 interface TextI {
 	Text?: string;
@@ -39,7 +46,7 @@ const CenterContainer = (props: TextI) => {
 						<CenterButton text="Lorem ipsum">
 							<CircleIcon />
 						</CenterButton>
-						
+
 						<CenterButton text="Lorem ipsum">
 							<HomeIcon />
 						</CenterButton>

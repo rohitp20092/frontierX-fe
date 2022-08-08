@@ -1,7 +1,7 @@
 import React from "react";
 import { IconProps } from "../../types/icons";
 
-export const TowerIcon = ({ className }: IconProps) => {
+const TowerIcon = ({ className }: IconProps) => {
 	return (
 		<svg
 			width="15"

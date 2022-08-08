@@ -1,8 +1,14 @@
 import React from "react";
+
+//Next Impports
 import Image from "next/image";
+
+//Icons
 import SearchIcon from "../icons/SearchIcon";
 import Logo from "../icons/Logo";
 import imghere from "../../public/assets/avtar.png";
+
+//Components
 import Centerpan from "../containers/CenterContainer";
 import { LeftContainer } from "../containers/LeftContainer";
 import Footer from "./Footer";

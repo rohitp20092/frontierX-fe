@@ -1,5 +1,7 @@
-import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import React from "react";
+
+//FontAwesome
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
 interface Props {
 	children: React.ReactNode | React.ReactNode[];

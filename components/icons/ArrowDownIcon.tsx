@@ -1,7 +1,7 @@
 import React from "react";
 import { IconProps } from "../../types/icons";
 
-export const ArrowDownIcon = ({ className }: IconProps) => {
+const ArrowDownIcon = ({ className }: IconProps) => {
 	return (
 		<svg
 			width="12"

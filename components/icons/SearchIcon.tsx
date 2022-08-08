@@ -1,6 +1,6 @@
 import React from "react";
 
-export const SearchIcon = () => {
+const SearchIcon = () => {
 	return (
 		<svg
 			className="text-gray-600 h-4 w-4 fill-current"

@@ -1,7 +1,7 @@
 import React from "react";
 import { IconProps } from "../../types/icons";
 
-export const ShortcutIcon = ({ className }: IconProps) => {
+const ShortcutIcon = ({ className }: IconProps) => {
 	return (
 		<svg
 			width="23"

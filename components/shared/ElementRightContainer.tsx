@@ -1,5 +1,7 @@
 import React from "react";
-import { Text, Smalltext, H4, Title } from "../shared/Headings";
+
+//Typography
+import { Text, Smalltext } from "../shared/Headings";
 
 export const ElementRightContainer = () => {
 	return (

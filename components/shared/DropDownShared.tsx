@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
+//Icons
 import ArrowDownIcon from "../icons/ArrowDownIcon";
 import CircleIcon from "../icons/CircleIcon";
+
+//Typography
 import { Title } from "./Headings";
 
 interface IDropDownProps {

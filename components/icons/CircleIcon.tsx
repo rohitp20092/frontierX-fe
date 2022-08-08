@@ -1,7 +1,7 @@
 import React from "react";
 import { IconProps } from "../../types/icons";
 
-export const CircleIcon = ({ className }: IconProps) => {
+const CircleIcon = ({ className }: IconProps) => {
 	return (
 		<svg
 			width="15"

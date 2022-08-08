@@ -1,12 +1,13 @@
 import React, { useState } from "react";
+//Shared Compoonents
 import { Smalltext } from "../shared/Headings";
+import DropDownShared from "../shared/DropDownShared";
+import LeftContainerShared from "../shared/LeftContainerShared";
+//Icons
 import ShortcutICon from "../icons/ShortcutIcon";
 import GamesIcon from "../icons/GamesIcon";
 import InstaIocn from "../icons/InstaIcon";
 import TwiterIocn from "../icons/TwiterIcon";
-import ArrowDownIcon from "../icons/ArrowDownIcon";
-import DropDownShared from "../shared/DropDownShared";
-import LeftContainerShared from "../shared/LeftContainerShared";
 
 export const LeftContainer = () => {
 	const [isOpenDrawer, setIsOpenDrawer] = useState<boolean>(true);
