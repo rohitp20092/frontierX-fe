@@ -5,8 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 body{
   font-family: 'Manrope', sans-serif;
-  background: linear-gradient(15.74deg, rgba(46, 45, 102, 0.6) -2.5%, rgba(58, 39, 63, 0.6) 47.55%, #181818 90.7%);
+  background: linear-gradient(0deg, rgba(25,24,26,1) 0%, rgba(31,26,32,1) 23%, rgba(39,28,41,1) 49%, rgba(37,31,51,1) 76%, rgba(35,31,60,1) 100%);
 }
 .border-custom{
   background: linear-gradient(95.91deg, #665AEF 6.04%, #FC364C 88.42%);
+}
+.img-full span {
+  width: 100% !important;
 }

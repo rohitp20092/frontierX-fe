@@ -16,7 +16,7 @@ const RightContainer = () => {
 			/>
 			{isOpenFirstDrawer && <ElementRightContainer />}
 
-			<div className="pt-8">
+			<div className="pt-4 md:pt-8">
 				<DropDownShared
 					isOpen={isOpenSecondDrawer}
 					setIsOpen={setIsOpenSecondDrawer}

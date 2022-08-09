@@ -14,7 +14,7 @@ interface IDropDownProps {
 const DropDownShared = ({ isOpen, setIsOpen }: IDropDownProps) => {
 	return (
 		<div className="w-full p-5 rounded-md bg-[#16101a] text-white">
-			<div className="flex w-full justify-between items-center mb-5">
+			<div className="flex w-full justify-between items-center">
 				<div className="w-full flex items-center gap-4">
 					<CircleIcon />
 					<Title className='"text-[#fff] font-extrabold text-base'>

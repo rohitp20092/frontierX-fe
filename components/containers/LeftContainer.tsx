@@ -12,11 +12,11 @@ import TwiterIocn from "../icons/TwiterIcon";
 export const LeftContainer = () => {
 	const [isOpenDrawer, setIsOpenDrawer] = useState<boolean>(true);
 	return (
-		<div className="w-full p-5 rounded-md bg-[#16101a] text-white">
+		<div className="w-full text-white">
 			<div className="w-full">
 				<DropDownShared isOpen={isOpenDrawer} setIsOpen={setIsOpenDrawer} />
 				{isOpenDrawer && (
-					<div>
+					<div className="w-full p-5 rounded-md rounded-tl-none rounded-tr-none bg-[#16101a] text-white -mt-1">
 						<Smalltext className="mb-[23px] text-white text-sm font-normal w-11/12">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

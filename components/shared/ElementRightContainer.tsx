@@ -1,106 +1,34 @@
 import React from "react";
 
-//Typography
-import { Text, Smalltext } from "../shared/Headings";
+//Shared component
+import { DropDownElements } from "./DropDownElements";
 
 export const ElementRightContainer = () => {
 	return (
-		<div className="max-h-[300px] overflow-y-scroll duration-100 delay-100	">
-			<div className="flex gap-3">
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Accessories</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>9 %</Smalltext>
+		<div className="w-full p-5 rounded-md rounded-tl-none rounded-tr-none bg-[#16101a] text-white -mt-1">
+			<div className="max-h-[300px] overflow-y-scroll duration-100 delay-100	">
+				<div className="flex gap-1 md:gap-0 lg:gap-3 flex-wrap lg:flex-nowrap">
+					<DropDownElements heading="Accessories" percent={9} />
+					<DropDownElements heading="Arms" percent={15} />
+					<DropDownElements heading="Background" percent={3} />
 				</div>
 
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Arms</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>15 %</Smalltext>
+				<div className="flex gap-1 md:gap-0 lg:gap-3 flex-wrap lg:flex-nowrap">
+					<DropDownElements heading="Eye" percent={2} />
+					<DropDownElements heading="Glasses" percent={92} />
+					<DropDownElements heading="Hair & Hats" percent={2} />
 				</div>
 
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Background</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>3 %</Smalltext>
-				</div>
-			</div>
-			<div className="flex gap-3">
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Eye</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>2 %</Smalltext>
-				</div>
-
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Glasses</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>92 %</Smalltext>
-				</div>
-
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Hair & Hats</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>2 %</Smalltext>
-				</div>
-			</div>
-
-			<div className="flex gap-3">
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Head</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>46 %</Smalltext>
-				</div>
-
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Legs & Clothes</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>46 %</Smalltext>
-				</div>
-
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Mouth</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>46 %</Smalltext>
-				</div>
-			</div>
-			<div className="flex gap-3">
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Head</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>46 %</Smalltext>
-				</div>
-
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Legs & Clothes</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>46 %</Smalltext>
-				</div>
-
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Mouth</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>46 %</Smalltext>
-				</div>
-			</div>
-			<div className="flex gap-3">
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Head</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>46 %</Smalltext>
-				</div>
-
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Legs & Clothes</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>46 %</Smalltext>
-				</div>
-
-				<div className="box-border flex flex-col gap-1 justify-center text-center w-full mb-3 p-4 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
-					<Smalltext>Mouth</Smalltext>
-					<Text className="text-[#fff]">Lorem ipsum</Text>
-					<Smalltext>46 %</Smalltext>
-				</div>
+				{[1, 2, 3].map((value, index) => (
+					<div
+						key={value}
+						className="flex gap-1 md:gap-0 lg:gap-3 flex-wrap lg:flex-nowrap"
+					>
+						<DropDownElements heading="Head" percent={46} />
+						<DropDownElements heading="Legs & Clothes" percent={46} />
+						<DropDownElements heading="Mouth" percent={46} />
+					</div>
+				))}
 			</div>
 		</div>
 	);
