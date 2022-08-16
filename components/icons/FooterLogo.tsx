@@ -12,9 +12,7 @@ const FooterLogo = ({ className }: IconProps) => {
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       className={className}>
-
-      <rect width="195" height="23" fill="url(#pattern0)" fill-opacity="0.3" />
-
+      <rect width="195" height="23" fill="url(#pattern0)" fillOpacity="0.3" />
       <defs>
         <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
           <use xlinkHref="#image0_0_117" transform="translate(0 -0.000684697) scale(0.00393701 0.033379)" />
