@@ -21,7 +21,7 @@ interface TextI {
 const CenterContainer = (props: TextI) => {
   return (
     <React.Fragment>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-5">
         <div className="w-full">
           <div className="w-16 sm:w-24 xl:w-48 mx-auto mt-10 xl:mt-1">
             <Image className="rounded-full" src={avtar} alt="avtar" />
@@ -30,8 +30,7 @@ const CenterContainer = (props: TextI) => {
         <div className="w-full text-center mt-[26px]">
           <H4 className="text-white text-[45px] font-extrabold mb-[10px]">Lorem ipsum</H4>
           <div className="w-full mb-[10px] text-base font-normal">
-            <p className="text-[#F3F3F3]">Created By </p>
-            <p className="text-[#FC364C]"> Lorem ipsum</p>
+            <p className="text-[#F3F3F3]">Created By <span className="text-[#FC364C]">Lorem ipsum</span></p>
           </div>
           <Text className="text-[#F3F3F3] text-base	font-normal mb-8 sm:mb-[60px]">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem.

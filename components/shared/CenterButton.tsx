@@ -9,7 +9,7 @@ interface IButtonProps {
 }
 const CenterButton = ({ children, text }: IButtonProps) => {
   return (
-    <button className="box-border flex items-center justify-center sm:gap-4 gap-2 h-[35px] sm:h-[50px] w-[96px] sm:w-[184px] sm:p-4 p-1 bg-[#080906] rounded-md font-extrabold text-white text-[15px]">
+    <button className="box-border flex items-center justify-center sm:gap-2 gap-2 h-[35px] sm:h-[50px] w-[96px] sm:w-[184px] sm:p-4 p-1 bg-[#1a151c] hover:bg-[#0d0d0d] rounded-md font-extrabold text-white text-[15px]">
       {children}
       <Text className="text-[#fff] text-[10px] sm:text-sm">{text}</Text>
     </button>

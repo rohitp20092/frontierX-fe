@@ -1,4 +1,9 @@
 import React, { useState } from 'react'
+
+// next
+import Link from 'next/link'
+
+
 //Shared Compoonents
 import { Smalltext } from '@/components/shared/Headings'
 import DropDownShared from '@/components/shared/DropDownShared'
@@ -16,7 +21,7 @@ export const LeftContainer = () => {
       <div className="w-full">
         <DropDownShared isOpen={isOpenDrawer} setIsOpen={setIsOpenDrawer} />
         {isOpenDrawer && (
-          <div className="w-full p-5 rounded-md rounded-tl-none rounded-tr-none bg-[#16101a] text-white -mt-1">
+          <div className="w-full px-5 pb-5 rounded-md rounded-tl-none rounded-tr-none bg-[#16101a] text-white -mt-1">
             <Smalltext className="mb-[23px] text-white text-sm font-normal w-11/12">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -33,12 +38,13 @@ export const LeftContainer = () => {
                 </LeftContainerShared>
               </div>
               <div className="w-full flex gap-5">
-                <LeftContainerShared text="Lorem ipsum.com">
+                <LeftContainerShared text="@Lorem ipsum">
                   <InstaIocn />
                 </LeftContainerShared>
                 <div className="flex gap-3 items-center w-2/3 mb-[20px]">
-                  <TwiterIocn className="bg-red" />
-                  <Smalltext className="text-white text-sm font-normal">@Lorem ipsum</Smalltext>
+                  <LeftContainerShared text="@Lorem ipsum">
+                    <TwiterIocn />
+                  </LeftContainerShared>
                 </div>
               </div>
             </div>

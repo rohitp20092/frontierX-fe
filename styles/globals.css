@@ -13,3 +13,35 @@ body{
 .img-full span {
   width: 100% !important;
 }
+.scroll-custom{
+
+}
+/* width */
+.scroll-custom ::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 25px;
+}
+
+/* Track */
+.scroll-custom ::-webkit-scrollbar-track {
+  border: 1px solid rgba(86, 86, 86, 0.2); 
+
+}
+ 
+/* Handle */
+.scroll-custom ::-webkit-scrollbar-thumb {
+  background: #1C1C1C;
+  border: 1px solid #565656;
+  border-radius: 100px;
+  width: 6px;
+}
+
+/* Handle on hover */
+.scroll-custom ::-webkit-scrollbar-thumb:hover {
+  background: #1C1C1C; 
+}
+@media (min-width: 1440px){
+  .container {
+      max-width: 1440px;
+  }
+}
