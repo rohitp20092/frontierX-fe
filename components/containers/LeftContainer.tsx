@@ -41,11 +41,9 @@ export const LeftContainer = () => {
                 <LeftContainerShared text="@Lorem ipsum">
                   <InstaIocn />
                 </LeftContainerShared>
-                <div className="flex gap-3 items-center w-2/3 mb-[20px]">
-                  <LeftContainerShared text="@Lorem ipsum">
-                    <TwiterIocn />
-                  </LeftContainerShared>
-                </div>
+                <LeftContainerShared text="@Lorem ipsum">
+                  <TwiterIocn />
+                </LeftContainerShared>
               </div>
             </div>
           </div>
